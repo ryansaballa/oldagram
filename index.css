@@ -32,6 +32,15 @@ html, body {
 .nav {
     justify-content: space-between;
     border-bottom: 1px solid #c6c6c6;
+}
+
+.nav, .post-head{
     display: flex;
     align-items: center;
+}
+
+/* meta data styling */
+
+.caption-bold{
+    font-weight: 700;
 }
