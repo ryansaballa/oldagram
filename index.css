@@ -3,6 +3,8 @@ html, body {
     padding: 0;
 }
 
+
+
 /* images */ 
 
 .logo {
@@ -19,6 +21,14 @@ html, body {
     width: 42px;
     height: 42px;
     border-radius: 50%;
+}
+
+.avatar{
+    margin: 15px 10px;
+}
+
+.post-img{
+    width: 100%;
 }
 
 /* layout */
@@ -41,6 +51,27 @@ html, body {
 
 /* meta data styling */
 
+h3, p{
+    margin: 0;
+}
+
 .caption-bold{
     font-weight: 700;
+}
+
+.likes, .caption{
+    margin: 1%;
+}
+
+/* icons */
+.icon-heart,
+.icon-comment,
+.icon-dm{
+    width: 5%;
+    margin: 1%;
+}
+
+/* photo */
+.post{
+    padding-bottom: 10px;
 }
