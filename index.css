@@ -55,6 +55,12 @@ h3, p{
     margin: 0;
 }
 
+.likes, 
+.caption-bold, 
+.name {
+    font-weight: 700;
+}
+
 .caption-bold{
     font-weight: 700;
 }
@@ -63,12 +69,26 @@ h3, p{
     margin: 1%;
 }
 
+.caption, 
+.location{
+    font-weight: 400;
+}
+
 /* icons */
 .icon-heart,
 .icon-comment,
 .icon-dm{
     width: 5%;
     margin: 1%;
+}
+
+.icon-heart:hover,
+.icon-heart:focus,
+.icon-comment:hover,
+.icon-comment:focus,
+.icon-dm:hover,
+.icon-dm:hover{
+    opacity: 0.5;
 }
 
 /* photo */
