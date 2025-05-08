@@ -74,6 +74,10 @@ h3, p{
     font-weight: 400;
 }
 
+.location{
+    font-size: 12px;
+}
+
 /* icons */
 .icon-heart,
 .icon-comment,
